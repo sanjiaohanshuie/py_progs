@@ -154,3 +154,19 @@
 # else:
 #     print('啥也不是')
 
+# t1=(80,34,5,35,65,7)
+# # print(t1)
+# # print(type(t1))
+# # print(t1[0],t1[-1],t1.count(80),t1.index(5))
+
+# a,b,c,*d=t1
+# print(a)
+# print(b)
+# print(c)
+# print(*d,type(*d),type(a))
+a=100
+b=200
+c=300
+l=[a,b,c]
+c,a,b=l
+print(a,b,c)
